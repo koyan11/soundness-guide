@@ -16,9 +16,13 @@ sudo apt install pkg-config libssl-dev openssl
 
 Download and run the installer:
 
-```bash 
+```bash
 curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 source ~/.bashrc
 
+Update & verify installation:
+
+soundnessup install
+soundnessup upgrade
 
 

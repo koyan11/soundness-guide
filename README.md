@@ -4,7 +4,7 @@ This guide will help you install and set up **SoundnessUP** and **Soundness CLI*
 
 ---
 
-1️⃣ Prerequisites
+## 1️⃣ Prerequisites
 
 Make sure your system is up to date and install required packages:
 
@@ -12,11 +12,12 @@ Make sure your system is up to date and install required packages:
 sudo apt update && sudo apt upgrade -y
 sudo apt install pkg-config libssl-dev openssl
 
-2️⃣ Install SoundnessUP
+## 2️⃣ Install SoundnessUP
 
 Download and run the installer:
 
-```bash curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
+```bash 
+curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 source ~/.bashrc
 
 
